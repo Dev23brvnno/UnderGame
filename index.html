@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Esquivar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="score">Puntuación: <span id="currentScore">0</span></div>
+        <div id="highScore">Mejor puntuación: <span id="bestScore">0</span></div>
+    </div>
+    <div id="leaderboard">
+        <h2>Top 100 Puntuaciones</h2>
+        <table id="leaderboardTable">
+            <thead>
+                <tr>
+                    <th>Posición</th>
+                    <th>Puntuación</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
